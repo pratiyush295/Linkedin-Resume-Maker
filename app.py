@@ -56,4 +56,4 @@ def generate_resume():
     return render_template('linkedin.html', **parsed_resume)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug = False, host = "0.0.0.0")
