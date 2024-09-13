@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Route for the home page
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('home.html')
+    return render_template('index.html')
 
 
 @app.route('/generate_resume', methods=['POST'])
