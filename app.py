@@ -6,6 +6,7 @@ import os
 import json
 from openai_schema.resume_schema import ResumeSchema
 from openai_schema.linkedin_schema import LinkedinResumeSchema
+import urwid
 
 app = Flask(__name__)
 
